@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+  function pulaLinha(){
+    document.write("<br><br>");
+  }
+
+  function mostra(frase){
+    document.write(frase);
+    pulaLinha();
+  }
+
+  mostra("Tabuada do 7 com While");
+  var multiplicador = 1;
+  while(multiplicador <= 10){
+    document.write(7 * multiplicador + ", ");
+    multiplicador ++;
+  }
+
+  mostra("<br><br>Tabuada do 7 com For");
+  for (var multiplicador = 1; multiplicador <= 10; multiplicador ++){
+    document.write(7 * multiplicador + ", ");
+  }
+  mostra("Fim");
+
+</script>

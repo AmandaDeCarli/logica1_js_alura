@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+  function pulaLinha(){
+    document.write("<br>");
+  }
+
+  function mostra(frase){
+    document.write(frase);
+    pulaLinha();
+  }
+
+  var anoAtual = 2020;
+  var media = (anoAtual - 1500)/28;
+
+  mostra("Desde 1500 até o ano atual, quantas gerações se passaram?" + Math.round(media))
+</script>
